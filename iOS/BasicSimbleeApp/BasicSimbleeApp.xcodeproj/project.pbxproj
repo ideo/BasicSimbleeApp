@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20513FD61EDF580C005CDB84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20513FD51EDF580C005CDB84 /* main.m */; };
+		20513FD91EDF580C005CDB84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20513FD81EDF580C005CDB84 /* AppDelegate.m */; };
+		20513FDC1EDF580C005CDB84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20513FDB1EDF580C005CDB84 /* ViewController.m */; };
+		20513FDF1EDF580C005CDB84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20513FDD1EDF580C005CDB84 /* Main.storyboard */; };
+		20513FE11EDF580C005CDB84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20513FE01EDF580C005CDB84 /* Assets.xcassets */; };
+		20513FE41EDF580C005CDB84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20513FE21EDF580C005CDB84 /* LaunchScreen.storyboard */; };
+		20513FEF1EDF580C005CDB84 /* BasicSimbleeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20513FEE1EDF580C005CDB84 /* BasicSimbleeAppTests.m */; };
+		20513FFA1EDF580C005CDB84 /* BasicSimbleeAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20513FF91EDF580C005CDB84 /* BasicSimbleeAppUITests.m */; };
+		205140091EE0723D005CDB84 /* CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 205140081EE0723D005CDB84 /* CustomColors.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20513FEB1EDF580C005CDB84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20513FC91EDF580C005CDB84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20513FD01EDF580C005CDB84;
+			remoteInfo = BasicSimbleeApp;
+		};
+		20513FF61EDF580C005CDB84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20513FC91EDF580C005CDB84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20513FD01EDF580C005CDB84;
+			remoteInfo = BasicSimbleeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20513FD11EDF580C005CDB84 /* BasicSimbleeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicSimbleeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20513FD51EDF580C005CDB84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20513FD71EDF580C005CDB84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20513FD81EDF580C005CDB84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20513FDA1EDF580C005CDB84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20513FDB1EDF580C005CDB84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20513FDE1EDF580C005CDB84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20513FE01EDF580C005CDB84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20513FE31EDF580C005CDB84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20513FE51EDF580C005CDB84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20513FEA1EDF580C005CDB84 /* BasicSimbleeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicSimbleeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20513FEE1EDF580C005CDB84 /* BasicSimbleeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicSimbleeAppTests.m; sourceTree = "<group>"; };
+		20513FF01EDF580C005CDB84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20513FF51EDF580C005CDB84 /* BasicSimbleeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicSimbleeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20513FF91EDF580C005CDB84 /* BasicSimbleeAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicSimbleeAppUITests.m; sourceTree = "<group>"; };
+		20513FFB1EDF580C005CDB84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		205140071EE0723D005CDB84 /* CustomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomColors.h; sourceTree = "<group>"; };
+		205140081EE0723D005CDB84 /* CustomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomColors.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20513FCE1EDF580C005CDB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20513FE71EDF580C005CDB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20513FF21EDF580C005CDB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20513FC81EDF580C005CDB84 = {
+			isa = PBXGroup;
+			children = (
+				20513FD31EDF580C005CDB84 /* BasicSimbleeApp */,
+				20513FED1EDF580C005CDB84 /* BasicSimbleeAppTests */,
+				20513FF81EDF580C005CDB84 /* BasicSimbleeAppUITests */,
+				20513FD21EDF580C005CDB84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20513FD21EDF580C005CDB84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20513FD11EDF580C005CDB84 /* BasicSimbleeApp.app */,
+				20513FEA1EDF580C005CDB84 /* BasicSimbleeAppTests.xctest */,
+				20513FF51EDF580C005CDB84 /* BasicSimbleeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20513FD31EDF580C005CDB84 /* BasicSimbleeApp */ = {
+			isa = PBXGroup;
+			children = (
+				20513FD71EDF580C005CDB84 /* AppDelegate.h */,
+				20513FD81EDF580C005CDB84 /* AppDelegate.m */,
+				20513FDA1EDF580C005CDB84 /* ViewController.h */,
+				20513FDB1EDF580C005CDB84 /* ViewController.m */,
+				20513FDD1EDF580C005CDB84 /* Main.storyboard */,
+				20513FE01EDF580C005CDB84 /* Assets.xcassets */,
+				20513FE21EDF580C005CDB84 /* LaunchScreen.storyboard */,
+				20513FE51EDF580C005CDB84 /* Info.plist */,
+				20513FD41EDF580C005CDB84 /* Supporting Files */,
+			);
+			path = BasicSimbleeApp;
+			sourceTree = "<group>";
+		};
+		20513FD41EDF580C005CDB84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				205140071EE0723D005CDB84 /* CustomColors.h */,
+				205140081EE0723D005CDB84 /* CustomColors.m */,
+				20513FD51EDF580C005CDB84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20513FED1EDF580C005CDB84 /* BasicSimbleeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				20513FEE1EDF580C005CDB84 /* BasicSimbleeAppTests.m */,
+				20513FF01EDF580C005CDB84 /* Info.plist */,
+			);
+			path = BasicSimbleeAppTests;
+			sourceTree = "<group>";
+		};
+		20513FF81EDF580C005CDB84 /* BasicSimbleeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20513FF91EDF580C005CDB84 /* BasicSimbleeAppUITests.m */,
+				20513FFB1EDF580C005CDB84 /* Info.plist */,
+			);
+			path = BasicSimbleeAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20513FD01EDF580C005CDB84 /* BasicSimbleeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20513FFE1EDF580C005CDB84 /* Build configuration list for PBXNativeTarget "BasicSimbleeApp" */;
+			buildPhases = (
+				20513FCD1EDF580C005CDB84 /* Sources */,
+				20513FCE1EDF580C005CDB84 /* Frameworks */,
+				20513FCF1EDF580C005CDB84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicSimbleeApp;
+			productName = BasicSimbleeApp;
+			productReference = 20513FD11EDF580C005CDB84 /* BasicSimbleeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20513FE91EDF580C005CDB84 /* BasicSimbleeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 205140011EDF580C005CDB84 /* Build configuration list for PBXNativeTarget "BasicSimbleeAppTests" */;
+			buildPhases = (
+				20513FE61EDF580C005CDB84 /* Sources */,
+				20513FE71EDF580C005CDB84 /* Frameworks */,
+				20513FE81EDF580C005CDB84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20513FEC1EDF580C005CDB84 /* PBXTargetDependency */,
+			);
+			name = BasicSimbleeAppTests;
+			productName = BasicSimbleeAppTests;
+			productReference = 20513FEA1EDF580C005CDB84 /* BasicSimbleeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20513FF41EDF580C005CDB84 /* BasicSimbleeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 205140041EDF580C005CDB84 /* Build configuration list for PBXNativeTarget "BasicSimbleeAppUITests" */;
+			buildPhases = (
+				20513FF11EDF580C005CDB84 /* Sources */,
+				20513FF21EDF580C005CDB84 /* Frameworks */,
+				20513FF31EDF580C005CDB84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20513FF71EDF580C005CDB84 /* PBXTargetDependency */,
+			);
+			name = BasicSimbleeAppUITests;
+			productName = BasicSimbleeAppUITests;
+			productReference = 20513FF51EDF580C005CDB84 /* BasicSimbleeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20513FC91EDF580C005CDB84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rob Rehr";
+				TargetAttributes = {
+					20513FD01EDF580C005CDB84 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 92C2733ZS7;
+						ProvisioningStyle = Automatic;
+					};
+					20513FE91EDF580C005CDB84 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20513FD01EDF580C005CDB84;
+					};
+					20513FF41EDF580C005CDB84 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20513FD01EDF580C005CDB84;
+					};
+				};
+			};
+			buildConfigurationList = 20513FCC1EDF580C005CDB84 /* Build configuration list for PBXProject "BasicSimbleeApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20513FC81EDF580C005CDB84;
+			productRefGroup = 20513FD21EDF580C005CDB84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20513FD01EDF580C005CDB84 /* BasicSimbleeApp */,
+				20513FE91EDF580C005CDB84 /* BasicSimbleeAppTests */,
+				20513FF41EDF580C005CDB84 /* BasicSimbleeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20513FCF1EDF580C005CDB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20513FE41EDF580C005CDB84 /* LaunchScreen.storyboard in Resources */,
+				20513FE11EDF580C005CDB84 /* Assets.xcassets in Resources */,
+				20513FDF1EDF580C005CDB84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20513FE81EDF580C005CDB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20513FF31EDF580C005CDB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20513FCD1EDF580C005CDB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20513FDC1EDF580C005CDB84 /* ViewController.m in Sources */,
+				20513FD91EDF580C005CDB84 /* AppDelegate.m in Sources */,
+				205140091EE0723D005CDB84 /* CustomColors.m in Sources */,
+				20513FD61EDF580C005CDB84 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20513FE61EDF580C005CDB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20513FEF1EDF580C005CDB84 /* BasicSimbleeAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20513FF11EDF580C005CDB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20513FFA1EDF580C005CDB84 /* BasicSimbleeAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20513FEC1EDF580C005CDB84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20513FD01EDF580C005CDB84 /* BasicSimbleeApp */;
+			targetProxy = 20513FEB1EDF580C005CDB84 /* PBXContainerItemProxy */;
+		};
+		20513FF71EDF580C005CDB84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20513FD01EDF580C005CDB84 /* BasicSimbleeApp */;
+			targetProxy = 20513FF61EDF580C005CDB84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20513FDD1EDF580C005CDB84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20513FDE1EDF580C005CDB84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20513FE21EDF580C005CDB84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20513FE31EDF580C005CDB84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20513FFC1EDF580C005CDB84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20513FFD1EDF580C005CDB84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20513FFF1EDF580C005CDB84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 92C2733ZS7;
+				INFOPLIST_FILE = BasicSimbleeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.pizzaparty.www.BasicSimbleeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		205140001EDF580C005CDB84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 92C2733ZS7;
+				INFOPLIST_FILE = BasicSimbleeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.pizzaparty.www.BasicSimbleeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		205140021EDF580C005CDB84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BasicSimbleeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.pizzaparty.www.BasicSimbleeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasicSimbleeApp.app/BasicSimbleeApp";
+			};
+			name = Debug;
+		};
+		205140031EDF580C005CDB84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BasicSimbleeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.pizzaparty.www.BasicSimbleeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasicSimbleeApp.app/BasicSimbleeApp";
+			};
+			name = Release;
+		};
+		205140051EDF580C005CDB84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BasicSimbleeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.pizzaparty.www.BasicSimbleeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BasicSimbleeApp;
+			};
+			name = Debug;
+		};
+		205140061EDF580C005CDB84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BasicSimbleeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = in.pizzaparty.www.BasicSimbleeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BasicSimbleeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20513FCC1EDF580C005CDB84 /* Build configuration list for PBXProject "BasicSimbleeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20513FFC1EDF580C005CDB84 /* Debug */,
+				20513FFD1EDF580C005CDB84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20513FFE1EDF580C005CDB84 /* Build configuration list for PBXNativeTarget "BasicSimbleeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20513FFF1EDF580C005CDB84 /* Debug */,
+				205140001EDF580C005CDB84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		205140011EDF580C005CDB84 /* Build configuration list for PBXNativeTarget "BasicSimbleeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205140021EDF580C005CDB84 /* Debug */,
+				205140031EDF580C005CDB84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		205140041EDF580C005CDB84 /* Build configuration list for PBXNativeTarget "BasicSimbleeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205140051EDF580C005CDB84 /* Debug */,
+				205140061EDF580C005CDB84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20513FC91EDF580C005CDB84 /* Project object */;
+}
