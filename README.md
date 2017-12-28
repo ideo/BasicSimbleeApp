@@ -5,7 +5,7 @@ SimbleeForMobile is very restricting (you can only connect with one Simblee, the
 ## What you need
 
 * An iOS device (I wrote this using iOS 10.2)
-* [An Apple developer account](https://developer.apple.com) (don't wory, it's free)
+* [An Apple developer account](https://developer.apple.com) (don't worry, it's free)
 * Xcode (I wrote this using v8.3.2)
 * Arduino IDE with the Simblee library installed (I wrote this using Arduino v1.8.1 and Simblee v1.1.2)
 * [Sparkfun Simblee Breakout](https://www.sparkfun.com/products/13632) (or anything with a Simblee microcontroller on it)
@@ -17,11 +17,11 @@ SimbleeForMobile is very restricting (you can only connect with one Simblee, the
 
 ### Hardware
 
-Solder or connect the 10k reesistor between D3 (labelled A4/3) and 3.3V to act as the pullup for the onboard button. Solder the 6 pin male header onto the serial pinout side of the board. Connect the FTDI Basic to the Simblee breakout via the serial header and connect that to a USB port on your computer (ready for programming!) Open BasicSimbleeApp.ino in Arduino IDE and upload it to the Simblee breakout.
+Solder or connect the 10k resistor between D3 (labelled A4/3) and 3.3V to act as the pullup for the onboard button. Solder the 6 pin male header onto the serial pinout side of the board. Connect the FTDI Basic to the Simblee breakout via the serial header and connect that to a USB port on your computer (ready for programming!) Open BasicSimbleeApp.ino in Arduino IDE and upload it to the Simblee breakout.
 
 ### Software
 
-Open BasicSimbleeApp.xcodeproj with Xcode. Make sure the provisioning is setup to load it onto your iOS device (doesn't work in simulator). Run it!
+Open `BasicSimbleeApp.xcodeproj` with Xcode. Make sure the provisioning is setup to load it onto your iOS device (doesn't work in simulator). Run it!
 
 ## How it works
 
